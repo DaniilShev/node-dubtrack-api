@@ -1,5 +1,8 @@
 {
   "loginDubtrack": "auth/dubtrack",
   "logout": "auth/logout",
-  "session": "/auth/session"
+  "session": "auth/session",
+  "user": "user/{identifier}",
+  "room_sanctions": "room/{room}/users/{name}",
+  "room_staff": "room/{room}/users/staff"
 }
