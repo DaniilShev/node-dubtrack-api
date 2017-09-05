@@ -2,7 +2,15 @@
   "loginDubtrack": "auth/dubtrack",
   "logout": "auth/logout",
   "session": "auth/session",
-  "user": "user/{identifier}",
-  "room_sanctions": "room/{room}/users/{name}",
-  "room_staff": "room/{room}/users/staff"
+  "user": "user/{userIdentifier}",
+  "userImage": "user/{userId}/image",
+  "userLargeImage": "user/{userId}/image/large",
+  "userFollowers": "user/{userId}/following",
+  "room": "room/{roomIdentifier}",
+  "roomUser": "room/{roomId}/users/{userId}",
+  "roomUsers": "room/{roomId}/users",
+  "mutedUsers": "room/{roomId}/users/mute",
+  "bannedUsers": "room/{roomId}/users/ban",
+  "rooms": "room",
+  "chatMessage": "chat/{roomId}/{messageId}"
 }
