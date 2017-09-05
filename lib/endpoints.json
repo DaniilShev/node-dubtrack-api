@@ -1,0 +1,5 @@
+{
+  "loginDubtrack": "auth/dubtrack",
+  "logout": "auth/logout",
+  "session": "/auth/session"
+}

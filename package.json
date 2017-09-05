@@ -1,0 +1,15 @@
+{
+  "name": "node-dubtrack-api",
+  "description": "A Node.js api for dubtrack.fm",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
