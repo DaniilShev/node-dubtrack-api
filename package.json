@@ -11,5 +11,9 @@
     "bluebird": "^3.5.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-google": "^0.9.1"
   }
 }
