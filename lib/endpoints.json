@@ -12,5 +12,8 @@
   "mutedUsers": "room/{roomId}/users/mute",
   "bannedUsers": "room/{roomId}/users/ban",
   "rooms": "room",
-  "chatMessage": "chat/{roomId}/{messageId}"
+  "chatMessage": "chat/{roomId}/{messageId}",
+  "conversations": "message",
+  "conversation": "message/{conversationId}",
+  "readConversation": "message/{conversationId}/read"
 }
