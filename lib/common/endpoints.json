@@ -10,6 +10,7 @@
   "room": "room/{roomIdentifier}",
   "roomUser": "room/{roomId}/users/{userId}",
   "roomUsers": "room/{roomId}/users",
+  "roomStaff": "room/{roomId}/users/staff",
   "mutedUsers": "room/{roomId}/users/mute",
   "bannedUsers": "room/{roomId}/users/ban",
   "rooms": "room",
